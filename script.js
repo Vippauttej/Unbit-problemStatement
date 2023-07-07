@@ -1,5 +1,5 @@
 function findTargetCombinations(nums, target) {
-  const complements = {}; // Object to store complements of elements
+  const complements = {};
   const combinations = [];
 
   for (let num of nums) {
@@ -16,7 +16,7 @@ function findTargetCombinations(nums, target) {
   return combinations;
 }
 
-// Test
+
 const nums = [1, 3, 2, 2, -4, -6, -2, 8];
 const target = 4;
 const targetCombinations = findTargetCombinations(nums, target);
@@ -27,7 +27,7 @@ const mergedArray = nums.sort((a, b) => a - b);
 console.log(mergedArray);
 function findDoubleTargetCombinations(nums, target) {
   const doubledTarget = target * 2;
-  const complements = {}; // Object to store complements of elements
+  const complements = {};
   const combinations = [];
 
   for (let num of nums) {
