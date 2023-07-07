@@ -41,7 +41,7 @@ function findDoubleTargetCombinations(nums, target) {
   return combinations;
 }
 
-// Test
+
 
 const doubleTargetCombinations = findDoubleTargetCombinations(nums, target);
 console.log(doubleTargetCombinations);
